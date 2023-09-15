@@ -2,7 +2,7 @@
 
 let zSpacing = -1000,
 		lastPos = zSpacing / 5,
-		$frames = document.querySelector('.frame'),
+		$frames = document.getElementsByClassName('frame'),
 		frames = Array.from($frames),
 		zVals = []
 
